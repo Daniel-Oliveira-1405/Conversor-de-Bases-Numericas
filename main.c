@@ -23,7 +23,7 @@ int main(){
             resto = a % base;
             resultado[i] = caracteres[resto];
             a-=resto;
-            a/=2;
+            a/=base;
         }
         printf("%d na base %d = ",n,base);
         for(i=strlen(resultado)-1; i>=0; i--)
